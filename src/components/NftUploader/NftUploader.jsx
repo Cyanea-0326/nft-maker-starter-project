@@ -60,7 +60,7 @@ const NftUploader = () => {
 
   const askContractToMintNft = async (ipfs) => {
     const CONTRACT_ADDRESS =
-      "0x9f12d0b2dcb05b7742a26aa3e52fdf7af267dd46";
+      "0xf44a8e7d95c02543a8a45094526f512957bd3978";
     try {
       const { ethereum } = window;
       if (ethereum) {
